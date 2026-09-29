@@ -1,0 +1,125 @@
+# This file holds all sidebar menu's entries.
+# The logic for the sidebar generation is in "site/layouts/partials/docs-sidebar.html".
+
+- title: Getting started
+  icon: book-half
+  icon_color: indigo
+  pages:
+    - title: Introduction
+    - title: Download
+
+- title: Side Panel
+  icon: record-circle
+  icon_color: red
+  pages:
+    - title: Overview
+    - title: Recording
+    - title: Ask AI
+
+- title: Automations
+  icon: ui-radios
+  icon_color: blue
+  pages:
+    - title: Overview
+    - title: Explore
+    - title: Export
+    - title: Import
+    - title: Remove
+    - title: Reorder
+
+- title: Automation
+  icon: menu-button-wide-fill
+  icon_color: cyan
+  pages:
+    - title: Overview
+    - title: URL
+    - title: Settings
+    - title: Schedule
+    - title: Loop
+    - title: Monitor
+    - title: Publish
+
+- title: Step
+  icon: braces-asterisk
+  icon_color: red
+  pages:
+    - title: Overview
+    - title: Element Finder
+    - title: Columns Filter
+    - title: Step Settings
+    - title: State Guard
+    - title: Page Guard
+
+- title: Step Value
+  icon: palette2
+  icon_color: pink
+  pages:
+    - title: Overview
+    - title: AI
+    - title: Append
+    - title: Attribute
+    - title: Captcha
+    - title: Class
+    - title: Clipboard
+    - title: Copy
+    - title: Form Events
+    - title: Function
+    - title: Google Sheets
+    - title: Key Events
+    - title: Keyboard Events
+    - title: Location Command
+    - title: History Command
+    - title: Mouse Events
+    - title: Touch Events
+    - title: Paste
+    - title: Prepend
+    - title: Query Param
+    - title: Random Value
+    - title: Repeat
+    - title: Replace
+    - title: Scroll To
+    - title: Select Option
+    - title: Session
+    - title: Tabs
+    - title: Window Command
+    - title: Element
+
+- title: Userscript
+  icon: magic
+  icon_color: orange
+  pages:
+    - title: Overview
+
+- title: Settings
+  icon: gear
+  icon_color: gray
+  pages:
+    - title: Overview
+    - title: Retry Attempts
+    - title: Show Notification
+    - title: Cloud Backup
+    - title: Migration Backup
+    - title: Google Sheets
+    - title: Additional Settings
+
+- title: Extension
+  icon: tools
+  icon_color: blue
+  pages:
+    - title: Status Bar
+    - title: Log
+    - title: Theme
+    - title: Language
+
+- title: About
+  icon: globe2
+  icon_color: indigo
+  pages:
+    - title: Permissions
+    - title: Upgrade Plan
+
+- title: FAQ
+  icon: question-circle
+  icon_color: green
+  pages:
+    - title: Quick Q&A
